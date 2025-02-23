@@ -2,7 +2,7 @@ package 4week;
 
 import java.util.*;
 
-public class baek_2587 {
+public class 2587 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[5];		
@@ -10,13 +10,13 @@ public class baek_2587 {
 		
 		for(int i=0; i<5; i++) {	
 			int num = sc.nextInt(); 
-			arr[i] += num;			 
+			arr[i] += num;			
 			sum += num;				
 		}
 		
 		System.out.println(sum/5);	
 		
-		Arrays.sort(arr);			
+		Arrays.sort(arr);			 
 		
 		System.out.println(arr[2]);	
 		
